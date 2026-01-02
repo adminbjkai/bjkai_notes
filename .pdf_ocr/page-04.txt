@@ -1,0 +1,35 @@
+A Scalable Monorepo
+Managed with Nx.
+
+The repository is structured as an Nx monorepo,
+providing a clear separation of concerns between
+applications and shared packages. This approach
+enhances code sharing, streamlines build
+processes, and simplifies dependency
+management across the project.
+
+{
+"“targetDefaults": {
+"build": {
+"dependsOn": ["Abuild"],
+"cache": true
+},
+"Lint": { "cache": true }
+}
+}
+
+docmost/
+
+t— apps/
+
+H— Client/ (The React Frontend)
+
+'— server/ (The NestJS Backend)
+
+— packages/
+
+— editor-ext/ (Shared Tiptap Extensions)
+
+i— ee/ (Enterprise Edition Code)
+
+A) NotebookLM

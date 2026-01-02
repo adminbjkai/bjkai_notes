@@ -1,0 +1,21 @@
+An Open Core Model: Balancing Community and
+Sustainability
+
+Docmost is built on a powerful, open-source core licensed under AGPLv3. For advanced
+enterprise needs, a separate set of commercially licensed features is available. This model
+supports the project's long-term development while keeping the core functionality free and
+open.
+
+Open Source Core Enterprise Edition
+License: License:
+AGPL v3 Docmost Enterprise License
+Key Features: Key Features:
+
+e Collaborative Editor e Al Search
+
+e Page & Space Management e SSO
+
+e Core API e Advanced Security
+
+ALL files in the following directories are Licensed under the Docmost Enterprise license...
+“apps/server/src/ee’, ‘apps/client/src/ee’, ~packages/ee ener

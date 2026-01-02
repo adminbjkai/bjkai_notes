@@ -1,0 +1,18 @@
+Built on a Modern, Performant Foundation.
+
+Docmost leverages a full-stack TypeScript approach, combining a powerful backend
+framework with a reactive, component-based frontend. This choice of technologies
+prioritizes developer experience, performance, and type-safety.
+
+Frontend Backend Collaboration
+ep >
+(Ty ZF
+
+Y
+&
+
+Tooling
+
+Ne
+
+A) NotebookLM

@@ -1,0 +1,26 @@
+Inside the Enterprise Edition.
+
+The Enterprise Edition includes features tailored for larger organizations, focusing on Al-powered productivity,
+enhanced security, and administrative control.
+
+= . . Security Settings
+Al Search How do congue $$07 Single Sign-On (SSO) :
+SSO Configuration
+Ask questions of your and enable SAML or LDAP. You can then proceed to Integrate with SAML and baa
+documentation and get ee LDAP providers for sain,
+synthesized answers with OSE centralized authentication. Google Workspace (SAML} - Active [ea ]
+1. Security Settings Gui
+sources. 2. Enterprise Authentication Overview st halle
+Enforce MFA & SSO ye lace a REST API Keys ane
+A . aacccaagtan tel Revoke Regenerate
+Mandate multi-factor ee Generate API keys for a
+. . Hi Development Key evoke egenerate
+authentication and SSO © Entorce 580 for a Users ° programmatic access and Lat wet: 2 nous 90 ee
+across your workspace. Enforce MFA (Multi-Factor Authentication) integrations. pasar Revoke Regenerate
+
+When enabled, all users must use an SSO provider
+and configure MFA for access.
+
+Create New API Key
+
+A) NotebookLM

@@ -1,0 +1,153 @@
+Component
+Description
+Source File/Directory
+License Type
+Technologies Used
+Functionality/Action
+Environment Variables
+Status/State
+Source
+Docmost Client
+The frontend application providing the user interface for the wiki, document editing, and workspace configuration.
+apps/client/
+AGPL 3.0 (Open Source) / Docmost Enterprise
+React, TypeScript, Vite, Mantine UI, Jotai
+Real-time editing, UI rendering, space management, and workspace configuration.
+APP_URL, FILE_UPLOAD_SIZE_LIMIT, DRAWIO_URL, CLOUD, SUBDOMAIN_HOST, COLLAB_URL
+Active
+[1-4]
+Docmost Server
+The backend application providing API services, business logic, and database management.
+apps/server/
+AGPL 3.0 (Open Source) / Docmost Enterprise
+NestJS, Kysely, Postgres, Redis
+Handles API requests, collaboration, database migrations, authentication, and file storage.
+APP_URL, APP_SECRET, DATABASE_URL, REDIS_URL, STORAGE_DRIVER, MAIL_DRIVER, JWT_TOKEN_EXPIRES_IN
+Active
+[1-5]
+AI Search
+Vector-based semantic search across workspace content and AI-powered question answering.
+apps/client/src/ee/ai/
+Docmost Enterprise
+AI SDK (Azure/Google/OpenAI/Ollama), Typesense, pgvector
+Semantic search, "Ask AI", and background embedding generation.
+AI_DRIVER, AI_EMBEDDING_MODEL, AI_COMPLETION_MODEL, AI_EMBEDDING_DIMENSION
+Enabled via Settings; Requires Enterprise License
+[1, 4, 6]
+Enterprise Edition (EE)
+Advanced features restricted to enterprise license holders for large-scale or high-security needs.
+apps/client/src/ee/
+Docmost Enterprise
+React
+Billing, SSO (SAML/OIDC), MFA enforcement, AI search, and license management.
+POSTMARK_TOKEN
+Restricted
+[1]
+Import / Export
+Feature to move data in and out of the platform from various formats.
+apps/client/src/features/page/components/page-import-modal.tsx
+AGPL 3.0 (Basic) / Docmost Enterprise (Confluence)
+React, Mammoth, ZIP, Markdown, HTML
+Supports Notion, Markdown, and HTML imports/exports; Confluence zip imports.
+FILE_IMPORT_SIZE_LIMIT
+Asynchronous/Queued
+[1, 4, 7, 8]
+Real-time Collaboration
+Feature enabling multiple users to edit documents simultaneously with state synchronization.
+apps/server/src/collaboration/
+AGPL 3.0
+Yjs, Hocuspocus
+Syncs document state across clients in real-time.
+REDIS_URL, COLLAB_URL
+Active
+[1]
+File Storage
+Subsystem for managing file uploads and attachment storage.
+Not in source
+AGPL 3.0
+Local File System, S3-Compatible Storage
+File attachment, S3 integration, and management of upload limits.
+STORAGE_DRIVER, AWS_S3_BUCKET, FILE_UPLOAD_SIZE_LIMIT
+Default: local
+[5, 9]
+MFA (Multi-Factor Authentication)
+Security feature providing an extra layer of protection during login via one-time passwords.
+apps/client/src/ee/mfa/
+Docmost Enterprise
+OTPAuth, React
+TOTP setup, backup code generation, and challenge verification.
+Not in source
+Requires Enterprise License
+[1]
+Page History
+Feature to view and restore previous versions of a document.
+apps/client/src/features/page-history/
+AGPL 3.0
+React, Tiptap
+Lists history items, provides previews of old versions, and allows restoration.
+Not in source
+Active
+[1]
+Public Sharing
+Allows pages to be shared publicly via a web link with specific access controls.
+apps/client/src/features/share/
+AGPL 3.0
+React
+Enable/disable public access, toggle search indexing, and include subpages.
+Not in source
+Active
+[1]
+i18n (Localization)
+Support for multiple languages in the user interface to accommodate global users.
+apps/client/public/locales/
+AGPL 3.0
+i18next
+Translates UI strings for 10+ languages including English, German, French, and Chinese.
+Not in source
+10+ languages supported
+[1]
+Editor Extension
+Package containing custom extensions and commands for the rich text editor.
+packages/editor-ext
+AGPL 3.0
+Not in source
+Editor menu options, markdown shortcuts, and "/" command integration.
+Not in source
+Must be built first
+[2-4, 7]
+Diagrams
+Integrated visual diagramming tools for pages.
+Not in source
+AGPL 3.0
+Draw.io, Excalidraw, Mermaid
+Visual editing and embedding of diagrams within pages.
+DRAWIO_URL
+Not in source
+[4, 5, 7]
+Email Driver
+Subsystem for sending system notifications and user invitations.
+Not in source
+AGPL 3.0
+SMTP, Postmark
+Invite users and send automated email notifications.
+MAIL_DRIVER, SMTP_HOST, POSTMARK_TOKEN
+Not in source
+[5, 9]
+Database Migrations
+Scripts and tools to manage and apply database schema updates.
+apps/server/src/database/migrations
+AGPL 3.0
+SQL, Kysely
+Execution of "server:migration:latest" and "server:migration:up" tasks.
+DATABASE_URL
+Manual in development
+[2, 3]
+Telemetry
+Anonymous usage data collection for version tracking and analytics.
+Not in source
+AGPL 3.0
+Not in source
+Collects user and page counts anonymously.
+DISABLE_TELEMETRY
+Active by default
+[5, 9]

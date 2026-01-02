@@ -1,0 +1,43 @@
+The Path to Contribution.
+
+Contributions are welcome. Whether it's through code, documentation, or
+localization, you can help shape the future of Docmost.
+
+is
+
+Code
+
+The core application is licensed under
+AGPLv3. Follow the development
+documentation for setup and
+contribution guidelines.
+
+Check *README.md° for the link.
+
+@
+
+Localization
+
+We use Crowdin to manage translations.
+The configuration in ‘crowdin. yml”
+points to the primary language file.
+
+files:
+- source: /apps/client/public/
+locales/en-US/transLation. json
+translation: /apps/client/
+public/locales/%locale%/
+%original_file_name%
+
+00900
+cea
+
+Community
+
+Thanks to partners like Algolia and
+Crowdin who support the open-source
+community.
+
+(algolia &€ Crowdin
+
+A) NotebookLM

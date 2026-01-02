@@ -1,0 +1,20 @@
+Beyond Static Docs: Real-time
+Collaboration and Context
+
+Collaboration is a first-class citizen. Real-time cursors, shared document state, and
+inline commenting transform documentation into a live conversation.
+
+This guide covers best practices This guide covers best practices The architecture is designed for
+for writing clear and concise for writing clear and concise scalability, supporting multiple
+technical documents. We — technical documents. services, including our new
+recommend reviewing the ; We recommend Q Alice @project.c|
+reviewing the guidelines before reviewing the Should we also alone
+starting. — Harare lp ae
+guidelines before esc here @ @Project-Alpha-Spec
+The architecture is designed fog. starting. . Good ee aici 2 pe its
+scalability, supporting multiple hae oe
+services...
+Live Cursors & Presence Inline Commenting Mentions for Users & Pages
+(‘CoLLaborationCursor® extension) (‘comment-List-item.tsx’) (“mention-suggestion.ts )
+
+A) NotebookLM

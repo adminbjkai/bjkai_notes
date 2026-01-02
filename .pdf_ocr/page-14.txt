@@ -1,0 +1,14 @@
+Built to Be Extended, Designed to Be Understood.
+
+Docmost’s architecture is intentionally modular. The separation of the frontend, backend,
+and a dedicated “@docmost/editor-ext* package provides clear extension points. The
+transparent open-core model invites developers to build on a solid, collaborative
+
+foundation.
+
+“apps/client” “apps/server’
+
+LJ
+*‘packages/editor-ext”
+
+A) NotebookLM

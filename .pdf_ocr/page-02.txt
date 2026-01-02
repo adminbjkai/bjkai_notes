@@ -1,0 +1,31 @@
+A Look at the Blueprint:
+Understanding the Core
+Architecture
+
+Your first look into the repository, docker-compose. ym1,
+
+reveals a clean, containerized architecture. The entire ‘
+application stack is orchestrated through three core \
+services, ensuring a straightforward setup and
+consistent development environment.
+
+a Docmost App
+
+docmost | docmost/docmost:latest
+
+services: if i
+docmost:
+image: docmost/docmost:latest = = = --------- Post SQL
+depends_on: ostgre Redi
+edis Cache
+- db eam Database ’
+6 - redis ; redis | redis:7.2-alpine
+: ~ db | postgres:16-alpine
+db:
+
+image: postgres:16-alpine === ===
+
+redis:
+image: redis:7.2-alpine
+
+A) NotebookLM

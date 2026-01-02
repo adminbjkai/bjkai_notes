@@ -1,0 +1,41 @@
+The NestJS Backend: Powering the Platform
+
+The server is a robust NestJS application responsible for
+authentication, data persistence, and serving the API. It
+uses Kysely for type-safe SQL queries and BullMQ for
+managing background jobs like indexing and notifications.
+
+NestJS Server
+
+Guards (JWT Auth)
+Vv
+
+(+++ ——] , ; ; Controllers
+ee API Request (*/api/...*) (Auth, Pages, Spaces)
+“| Vv
+Services
+
+Client (Business Logic)
+v
+
+Repositories
+
+imports: [
+
+]
+
+AuthModule,
+UserModuLe,
+PageModuLle,
+SpaceModule
+
+Database Query
+
+(Kysely DB access)
+
+=
+
+PostgreSQL
+Database
+
+A) NotebookLM

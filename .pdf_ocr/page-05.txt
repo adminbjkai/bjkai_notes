@@ -1,0 +1,47 @@
+The Heart of Docmost: A Powerful, Tiptap-Based Editor.
+
+The user experience is centered around a rich-text editor built on Tiptap. It's designed for writing technical
+documentation, offering both markdown shortcuts and a powerful floating menu for seamless formatting.
+
+Slash commands for ————
+quick insertion
+(‘slash-command.ts°)
+
+# Technical Documentation Guide
+BI @¢@ @ <> M H2
+
+This guide covers best practices for writing clear and concise technical
+documents.
+
+## Getting Started
+
+4 To begin, you'll need to set up your environment i
+
+H Heading 1
+He Heading 2
+it» Heading 3
+© Code Block
+oo Gots Inter Regular, #6A6A6A
+Bullet List
+
+= Numbered List
+
+© image
+
+m9 Yahto
+
+449 e1Code Exanpless
+“n''"3s
+consele. log( "Hello World’);
+
+Code Example
+
+Context-aware bubble
+menu
+(bubble-menu.tsx’)
+
+Seamless markdown
+paste support
+(‘markdown-clipboard.ts°)
+
+A) NotebookLM

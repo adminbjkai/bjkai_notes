@@ -1,0 +1,63 @@
+Create Rich Content with Custom Nodes and Embeds
+
+Move beyond text and images. Embed interactive diagrams, whiteboards, and content from third-party services
+directly into your documents. The editor's extensibility supports a wide range of content types.
+
+-
+
+O) O
+
+Draw.io / diagrams.net
+
+Insert and edit complex diagrams.
+(drawio.tsx)
+
+©) |e)
+OS
+
+Third-Party Embeds
+
+Bring in content from your favorite
+tools. (icons/)
+
+ary
+
+a
+
+\
+| Ss
+
+| ~A— zi
+\
+
+Excalidraw
+
+Embed collaborative whiteboards.
+(excaLlidraw.tsx)
+
+°
+
+rc O
+
+Le)
+1
+
+Le)
+
+Table of Contents
+
+Automatically generated from
+headings. (table-of-contents.tsx)
+
+{O75
+S30
+
+OF
+
+Mermaid Diagrams
+
+Generate diagrams from code.
+
+(sLash-command.ts)
+
+A) NotebookLM

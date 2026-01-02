@@ -1,0 +1,51 @@
+How Real-time Sync Works:
+Hocuspocus and WebSockets.
+
+Real-time collaboration is powered by a Hocuspocus
+
+WebSocket server. The server's “PersistenceExtension
+
+saves document updates (*Y.Doc* state) to the
+database, ensuring no data is lost. General Ul updates
+are pushed to clients via a separate WebSocket event
+system.
+
+persistence.extension.ts
+
+async onStoreDocument(data: onStoreDocumentPayload) {
+
+ere
+const pageId = getPageId(documentName) ;
+
+const ydoc = Y.encodeStateAsUpdate(document) ;
+
+// Save binary Y.Doc state to database
+await this.pageRepo.updatePage({ ydoc }, pagelId);
+Wile ae
+
+User A Hocuspocus
+Client Server
+
+1. Y.Doc update
+(typing)
+
+User B PostgreSQL
+Client DB
+
+2. Broadcast
+
+update
+
+3. Editor updates
+
+4
+
+“onStoreDocument*
+
+hook
+
+a
+
+5. Save binary Y.Doc state
+
+A) NotebookLM
